@@ -18,11 +18,15 @@ after poping-up, it will stay there for 10seconds and then it will hide it self,
 until another random time to do the samething again.
 
 ### how to use?
+download the latest release, uncompress and run it.
 
-simple, install `gcc` (i suggest mingw), then add it to PATH of windows and run double-click and run `build.cmd`,
-it will make a `BSOD.exe` which is the program it self, run it and wait for it :)
+### how to build?
 
-**For exiting, open taskmanager and end task BSOD.exe**
+simple, install `gcc` (i suggest you use mingw as i did too), then add it to PATH of windows and run `build.cmd`,
+it will make `BSOD.exe` inside the new build directory, run it and wait for it :)
+(qr.bmp needs to be in the same directory as the program, for it to be shown! build.cmd copies automatically)
+
+**For closing the program, open taskmanager and end task BSOD.exe process**
 
 ### Additional Notes
  - **This program doesn't harm your pc (see the source)**
